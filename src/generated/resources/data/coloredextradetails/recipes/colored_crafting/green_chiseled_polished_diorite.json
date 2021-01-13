@@ -1,0 +1,8 @@
+{
+  "type": "additionalcolors:crafting_colored",
+  "ingredient": {
+    "tag": "coloredextradetails:chiseled_polished_diorite"
+  },
+  "result": "coloredextradetails:green_chiseled_polished_diorite",
+  "count": 1
+}

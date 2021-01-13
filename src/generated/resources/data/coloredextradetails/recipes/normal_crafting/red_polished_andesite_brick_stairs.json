@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "coloredextradetails:polished_andesite_brick_stairs"
+    },
+    {
+      "tag": "forge:dyes/red"
+    }
+  ],
+  "result": {
+    "item": "coloredextradetails:red_polished_andesite_brick_stairs"
+  }
+}

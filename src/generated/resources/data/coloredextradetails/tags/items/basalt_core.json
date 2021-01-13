@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "coloredextradetails:light_blue_basalt_core",
+    "coloredextradetails:yellow_basalt_core",
+    "coloredextradetails:gray_basalt_core",
+    "coloredextradetails:white_basalt_core",
+    "coloredextradetails:black_basalt_core",
+    "coloredextradetails:green_basalt_core",
+    "coloredextradetails:red_basalt_core",
+    "coloredextradetails:cyan_basalt_core",
+    "coloredextradetails:brown_basalt_core",
+    "coloredextradetails:blue_basalt_core",
+    "coloredextradetails:orange_basalt_core",
+    "coloredextradetails:lime_basalt_core",
+    "coloredextradetails:pink_basalt_core",
+    "coloredextradetails:purple_basalt_core",
+    "coloredextradetails:light_gray_basalt_core",
+    "coloredextradetails:magenta_basalt_core",
+    "extradetails:basalt_core"
+  ]
+}

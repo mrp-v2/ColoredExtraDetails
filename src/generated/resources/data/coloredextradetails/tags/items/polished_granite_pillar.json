@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "coloredextradetails:light_blue_polished_granite_pillar",
+    "coloredextradetails:yellow_polished_granite_pillar",
+    "coloredextradetails:gray_polished_granite_pillar",
+    "coloredextradetails:white_polished_granite_pillar",
+    "coloredextradetails:black_polished_granite_pillar",
+    "coloredextradetails:green_polished_granite_pillar",
+    "coloredextradetails:red_polished_granite_pillar",
+    "coloredextradetails:cyan_polished_granite_pillar",
+    "coloredextradetails:brown_polished_granite_pillar",
+    "coloredextradetails:blue_polished_granite_pillar",
+    "coloredextradetails:orange_polished_granite_pillar",
+    "coloredextradetails:lime_polished_granite_pillar",
+    "coloredextradetails:pink_polished_granite_pillar",
+    "coloredextradetails:purple_polished_granite_pillar",
+    "coloredextradetails:light_gray_polished_granite_pillar",
+    "coloredextradetails:magenta_polished_granite_pillar",
+    "extradetails:polished_granite_pillar"
+  ]
+}

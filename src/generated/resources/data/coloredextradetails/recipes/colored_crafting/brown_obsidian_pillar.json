@@ -1,0 +1,8 @@
+{
+  "type": "additionalcolors:crafting_colored",
+  "ingredient": {
+    "tag": "coloredextradetails:obsidian_pillar"
+  },
+  "result": "coloredextradetails:brown_obsidian_pillar",
+  "count": 1
+}

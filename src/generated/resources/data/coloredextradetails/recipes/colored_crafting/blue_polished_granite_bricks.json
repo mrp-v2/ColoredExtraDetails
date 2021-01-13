@@ -1,0 +1,8 @@
+{
+  "type": "additionalcolors:crafting_colored",
+  "ingredient": {
+    "tag": "coloredextradetails:polished_granite_bricks"
+  },
+  "result": "coloredextradetails:blue_polished_granite_bricks",
+  "count": 1
+}

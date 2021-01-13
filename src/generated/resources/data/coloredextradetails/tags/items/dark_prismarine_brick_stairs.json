@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "coloredextradetails:light_blue_dark_prismarine_brick_stairs",
+    "coloredextradetails:yellow_dark_prismarine_brick_stairs",
+    "coloredextradetails:gray_dark_prismarine_brick_stairs",
+    "coloredextradetails:white_dark_prismarine_brick_stairs",
+    "coloredextradetails:black_dark_prismarine_brick_stairs",
+    "coloredextradetails:green_dark_prismarine_brick_stairs",
+    "coloredextradetails:red_dark_prismarine_brick_stairs",
+    "coloredextradetails:cyan_dark_prismarine_brick_stairs",
+    "coloredextradetails:brown_dark_prismarine_brick_stairs",
+    "coloredextradetails:blue_dark_prismarine_brick_stairs",
+    "coloredextradetails:orange_dark_prismarine_brick_stairs",
+    "coloredextradetails:lime_dark_prismarine_brick_stairs",
+    "coloredextradetails:pink_dark_prismarine_brick_stairs",
+    "coloredextradetails:purple_dark_prismarine_brick_stairs",
+    "coloredextradetails:light_gray_dark_prismarine_brick_stairs",
+    "coloredextradetails:magenta_dark_prismarine_brick_stairs",
+    "extradetails:dark_prismarine_brick_stairs"
+  ]
+}

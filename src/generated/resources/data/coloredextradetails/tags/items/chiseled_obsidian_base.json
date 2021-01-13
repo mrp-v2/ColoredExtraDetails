@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "coloredextradetails:light_blue_chiseled_obsidian",
+    "coloredextradetails:yellow_chiseled_obsidian",
+    "coloredextradetails:gray_chiseled_obsidian",
+    "coloredextradetails:white_chiseled_obsidian",
+    "coloredextradetails:black_chiseled_obsidian",
+    "coloredextradetails:green_chiseled_obsidian",
+    "coloredextradetails:red_chiseled_obsidian",
+    "coloredextradetails:cyan_chiseled_obsidian",
+    "coloredextradetails:brown_chiseled_obsidian",
+    "coloredextradetails:blue_chiseled_obsidian",
+    "coloredextradetails:orange_chiseled_obsidian",
+    "coloredextradetails:lime_chiseled_obsidian",
+    "coloredextradetails:pink_chiseled_obsidian",
+    "coloredextradetails:purple_chiseled_obsidian",
+    "coloredextradetails:light_gray_chiseled_obsidian",
+    "coloredextradetails:magenta_chiseled_obsidian"
+  ]
+}

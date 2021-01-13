@@ -1,0 +1,8 @@
+{
+  "type": "additionalcolors:crafting_colored",
+  "ingredient": {
+    "tag": "coloredextradetails:polished_cobble_brick_wall"
+  },
+  "result": "coloredextradetails:yellow_polished_cobble_brick_wall",
+  "count": 1
+}

@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "coloredextradetails:light_blue_smooth_stone_brick_stairs",
+    "coloredextradetails:yellow_smooth_stone_brick_stairs",
+    "coloredextradetails:gray_smooth_stone_brick_stairs",
+    "coloredextradetails:white_smooth_stone_brick_stairs",
+    "coloredextradetails:black_smooth_stone_brick_stairs",
+    "coloredextradetails:green_smooth_stone_brick_stairs",
+    "coloredextradetails:red_smooth_stone_brick_stairs",
+    "coloredextradetails:cyan_smooth_stone_brick_stairs",
+    "coloredextradetails:brown_smooth_stone_brick_stairs",
+    "coloredextradetails:blue_smooth_stone_brick_stairs",
+    "coloredextradetails:orange_smooth_stone_brick_stairs",
+    "coloredextradetails:lime_smooth_stone_brick_stairs",
+    "coloredextradetails:pink_smooth_stone_brick_stairs",
+    "coloredextradetails:purple_smooth_stone_brick_stairs",
+    "coloredextradetails:light_gray_smooth_stone_brick_stairs",
+    "coloredextradetails:magenta_smooth_stone_brick_stairs",
+    "extradetails:smooth_stone_brick_stairs"
+  ]
+}

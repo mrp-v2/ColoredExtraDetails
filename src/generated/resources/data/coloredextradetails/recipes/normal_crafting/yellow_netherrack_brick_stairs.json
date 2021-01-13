@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "coloredextradetails:netherrack_brick_stairs"
+    },
+    {
+      "tag": "forge:dyes/yellow"
+    }
+  ],
+  "result": {
+    "item": "coloredextradetails:yellow_netherrack_brick_stairs"
+  }
+}

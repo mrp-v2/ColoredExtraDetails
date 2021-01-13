@@ -1,0 +1,8 @@
+{
+  "type": "additionalcolors:crafting_colored",
+  "ingredient": {
+    "tag": "coloredextradetails:polished_basalt_core"
+  },
+  "result": "coloredextradetails:purple_polished_basalt_core",
+  "count": 1
+}

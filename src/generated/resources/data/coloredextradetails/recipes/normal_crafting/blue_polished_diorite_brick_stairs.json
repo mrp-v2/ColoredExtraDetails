@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "coloredextradetails:polished_diorite_brick_stairs"
+    },
+    {
+      "tag": "forge:dyes/blue"
+    }
+  ],
+  "result": {
+    "item": "coloredextradetails:blue_polished_diorite_brick_stairs"
+  }
+}

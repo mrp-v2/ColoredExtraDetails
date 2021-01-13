@@ -1,0 +1,8 @@
+{
+  "type": "additionalcolors:crafting_colored",
+  "ingredient": {
+    "tag": "coloredextradetails:polished_obsidian_slab"
+  },
+  "result": "coloredextradetails:magenta_polished_obsidian_slab",
+  "count": 1
+}

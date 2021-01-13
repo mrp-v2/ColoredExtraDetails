@@ -1,0 +1,8 @@
+{
+  "type": "additionalcolors:crafting_colored",
+  "ingredient": {
+    "tag": "additionalcolors:prismarine_brick_wall"
+  },
+  "result": "coloredextradetails:gray_prismarine_brick_wall",
+  "count": 1
+}

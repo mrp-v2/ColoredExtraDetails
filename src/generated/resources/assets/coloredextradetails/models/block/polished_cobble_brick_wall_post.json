@@ -1,0 +1,6 @@
+{
+  "parent": "mrplibrary:block/wall_post_tinted",
+  "textures": {
+    "wall": "coloredextradetails:block/polished_cobblestone_bricks"
+  }
+}

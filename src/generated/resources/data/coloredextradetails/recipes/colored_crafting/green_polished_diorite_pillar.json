@@ -1,0 +1,8 @@
+{
+  "type": "additionalcolors:crafting_colored",
+  "ingredient": {
+    "tag": "coloredextradetails:polished_diorite_pillar"
+  },
+  "result": "coloredextradetails:green_polished_diorite_pillar",
+  "count": 1
+}

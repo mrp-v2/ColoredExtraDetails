@@ -1,0 +1,8 @@
+{
+  "parent": "mrplibrary:block/stairs_inner_tinted",
+  "textures": {
+    "side": "coloredextradetails:block/smooth_stone_bricks",
+    "bottom": "coloredextradetails:block/smooth_stone_bricks",
+    "top": "coloredextradetails:block/smooth_stone_bricks"
+  }
+}

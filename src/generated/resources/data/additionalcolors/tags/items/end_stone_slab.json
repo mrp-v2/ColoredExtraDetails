@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "coloredextradetails:light_blue_end_stone_slab",
+    "coloredextradetails:yellow_end_stone_slab",
+    "coloredextradetails:gray_end_stone_slab",
+    "coloredextradetails:white_end_stone_slab",
+    "coloredextradetails:black_end_stone_slab",
+    "coloredextradetails:green_end_stone_slab",
+    "coloredextradetails:red_end_stone_slab",
+    "coloredextradetails:cyan_end_stone_slab",
+    "coloredextradetails:brown_end_stone_slab",
+    "coloredextradetails:blue_end_stone_slab",
+    "coloredextradetails:orange_end_stone_slab",
+    "coloredextradetails:lime_end_stone_slab",
+    "coloredextradetails:pink_end_stone_slab",
+    "coloredextradetails:purple_end_stone_slab",
+    "coloredextradetails:light_gray_end_stone_slab",
+    "coloredextradetails:magenta_end_stone_slab",
+    "extradetails:end_stone_slab"
+  ]
+}

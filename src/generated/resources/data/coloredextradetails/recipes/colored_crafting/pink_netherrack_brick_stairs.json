@@ -1,0 +1,8 @@
+{
+  "type": "additionalcolors:crafting_colored",
+  "ingredient": {
+    "tag": "coloredextradetails:netherrack_brick_stairs"
+  },
+  "result": "coloredextradetails:pink_netherrack_brick_stairs",
+  "count": 1
+}

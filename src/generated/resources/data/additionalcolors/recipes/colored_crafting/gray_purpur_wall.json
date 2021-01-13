@@ -1,0 +1,8 @@
+{
+  "type": "additionalcolors:crafting_colored",
+  "ingredient": {
+    "tag": "additionalcolors:purpur_wall"
+  },
+  "result": "coloredextradetails:gray_purpur_wall",
+  "count": 1
+}

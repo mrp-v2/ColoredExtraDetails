@@ -1,0 +1,8 @@
+{
+  "type": "additionalcolors:crafting_colored",
+  "ingredient": {
+    "tag": "coloredextradetails:polished_netherrack_stairs"
+  },
+  "result": "coloredextradetails:brown_polished_netherrack_stairs",
+  "count": 1
+}

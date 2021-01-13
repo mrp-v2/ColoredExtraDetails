@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "coloredextradetails:polished_basalt_shell_base"
+    }
+  ],
+  "result": {
+    "item": "extradetails:polished_basalt_shell"
+  }
+}

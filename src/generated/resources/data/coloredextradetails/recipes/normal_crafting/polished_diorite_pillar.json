@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "coloredextradetails:polished_diorite_pillar_base"
+    }
+  ],
+  "result": {
+    "item": "extradetails:polished_diorite_pillar"
+  }
+}

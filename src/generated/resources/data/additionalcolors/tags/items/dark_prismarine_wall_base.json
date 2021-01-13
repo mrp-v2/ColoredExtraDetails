@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "coloredextradetails:light_blue_dark_prismarine_wall",
+    "coloredextradetails:yellow_dark_prismarine_wall",
+    "coloredextradetails:gray_dark_prismarine_wall",
+    "coloredextradetails:white_dark_prismarine_wall",
+    "coloredextradetails:black_dark_prismarine_wall",
+    "coloredextradetails:green_dark_prismarine_wall",
+    "coloredextradetails:red_dark_prismarine_wall",
+    "coloredextradetails:cyan_dark_prismarine_wall",
+    "coloredextradetails:brown_dark_prismarine_wall",
+    "coloredextradetails:blue_dark_prismarine_wall",
+    "coloredextradetails:orange_dark_prismarine_wall",
+    "coloredextradetails:lime_dark_prismarine_wall",
+    "coloredextradetails:pink_dark_prismarine_wall",
+    "coloredextradetails:purple_dark_prismarine_wall",
+    "coloredextradetails:light_gray_dark_prismarine_wall",
+    "coloredextradetails:magenta_dark_prismarine_wall"
+  ]
+}

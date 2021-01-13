@@ -1,0 +1,8 @@
+{
+  "type": "additionalcolors:crafting_colored",
+  "ingredient": {
+    "tag": "coloredextradetails:polished_prismarine_pillar"
+  },
+  "result": "coloredextradetails:purple_polished_prismarine_pillar",
+  "count": 1
+}

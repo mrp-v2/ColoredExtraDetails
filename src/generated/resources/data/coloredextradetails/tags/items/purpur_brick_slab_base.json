@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "coloredextradetails:light_blue_purpur_brick_slab",
+    "coloredextradetails:yellow_purpur_brick_slab",
+    "coloredextradetails:gray_purpur_brick_slab",
+    "coloredextradetails:white_purpur_brick_slab",
+    "coloredextradetails:black_purpur_brick_slab",
+    "coloredextradetails:green_purpur_brick_slab",
+    "coloredextradetails:red_purpur_brick_slab",
+    "coloredextradetails:cyan_purpur_brick_slab",
+    "coloredextradetails:brown_purpur_brick_slab",
+    "coloredextradetails:blue_purpur_brick_slab",
+    "coloredextradetails:orange_purpur_brick_slab",
+    "coloredextradetails:lime_purpur_brick_slab",
+    "coloredextradetails:pink_purpur_brick_slab",
+    "coloredextradetails:purple_purpur_brick_slab",
+    "coloredextradetails:light_gray_purpur_brick_slab",
+    "coloredextradetails:magenta_purpur_brick_slab"
+  ]
+}

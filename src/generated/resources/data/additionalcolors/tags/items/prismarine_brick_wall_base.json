@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "coloredextradetails:light_blue_prismarine_brick_wall",
+    "coloredextradetails:yellow_prismarine_brick_wall",
+    "coloredextradetails:gray_prismarine_brick_wall",
+    "coloredextradetails:white_prismarine_brick_wall",
+    "coloredextradetails:black_prismarine_brick_wall",
+    "coloredextradetails:green_prismarine_brick_wall",
+    "coloredextradetails:red_prismarine_brick_wall",
+    "coloredextradetails:cyan_prismarine_brick_wall",
+    "coloredextradetails:brown_prismarine_brick_wall",
+    "coloredextradetails:blue_prismarine_brick_wall",
+    "coloredextradetails:orange_prismarine_brick_wall",
+    "coloredextradetails:lime_prismarine_brick_wall",
+    "coloredextradetails:pink_prismarine_brick_wall",
+    "coloredextradetails:purple_prismarine_brick_wall",
+    "coloredextradetails:light_gray_prismarine_brick_wall",
+    "coloredextradetails:magenta_prismarine_brick_wall"
+  ]
+}

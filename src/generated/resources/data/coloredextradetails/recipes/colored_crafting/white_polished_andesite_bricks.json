@@ -1,0 +1,8 @@
+{
+  "type": "additionalcolors:crafting_colored",
+  "ingredient": {
+    "tag": "coloredextradetails:polished_andesite_bricks"
+  },
+  "result": "coloredextradetails:white_polished_andesite_bricks",
+  "count": 1
+}

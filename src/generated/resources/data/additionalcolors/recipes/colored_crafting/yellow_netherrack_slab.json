@@ -1,0 +1,8 @@
+{
+  "type": "additionalcolors:crafting_colored",
+  "ingredient": {
+    "tag": "additionalcolors:netherrack_slab"
+  },
+  "result": "coloredextradetails:yellow_netherrack_slab",
+  "count": 1
+}

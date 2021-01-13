@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "coloredextradetails:light_blue_polished_granite_bricks",
+    "coloredextradetails:yellow_polished_granite_bricks",
+    "coloredextradetails:gray_polished_granite_bricks",
+    "coloredextradetails:white_polished_granite_bricks",
+    "coloredextradetails:black_polished_granite_bricks",
+    "coloredextradetails:green_polished_granite_bricks",
+    "coloredextradetails:red_polished_granite_bricks",
+    "coloredextradetails:cyan_polished_granite_bricks",
+    "coloredextradetails:brown_polished_granite_bricks",
+    "coloredextradetails:blue_polished_granite_bricks",
+    "coloredextradetails:orange_polished_granite_bricks",
+    "coloredextradetails:lime_polished_granite_bricks",
+    "coloredextradetails:pink_polished_granite_bricks",
+    "coloredextradetails:purple_polished_granite_bricks",
+    "coloredextradetails:light_gray_polished_granite_bricks",
+    "coloredextradetails:magenta_polished_granite_bricks",
+    "extradetails:polished_granite_bricks"
+  ]
+}

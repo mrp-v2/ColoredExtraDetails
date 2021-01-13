@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "coloredextradetails:end_stone_pillar_base"
+    }
+  ],
+  "result": {
+    "item": "extradetails:end_stone_pillar"
+  }
+}

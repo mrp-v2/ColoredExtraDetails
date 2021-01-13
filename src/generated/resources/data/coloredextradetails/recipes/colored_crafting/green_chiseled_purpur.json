@@ -1,0 +1,8 @@
+{
+  "type": "additionalcolors:crafting_colored",
+  "ingredient": {
+    "tag": "coloredextradetails:chiseled_purpur"
+  },
+  "result": "coloredextradetails:green_chiseled_purpur",
+  "count": 1
+}

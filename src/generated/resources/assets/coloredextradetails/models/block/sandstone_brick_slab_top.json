@@ -1,0 +1,8 @@
+{
+  "parent": "mrplibrary:block/slab_top_tinted",
+  "textures": {
+    "side": "coloredextradetails:block/sandstone_bricks",
+    "bottom": "coloredextradetails:block/sandstone_bricks",
+    "top": "coloredextradetails:block/sandstone_bricks"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=top": {
+      "model": "coloredextradetails:block/polished_obsidian_slab_top"
+    },
+    "type=bottom": {
+      "model": "coloredextradetails:block/polished_obsidian_slab"
+    },
+    "type=double": {
+      "model": "coloredextradetails:block/polished_obsidian"
+    }
+  }
+}

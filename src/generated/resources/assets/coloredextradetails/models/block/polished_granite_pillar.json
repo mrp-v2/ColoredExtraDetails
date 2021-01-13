@@ -1,0 +1,7 @@
+{
+  "parent": "mrplibrary:block/cube_column_tinted",
+  "textures": {
+    "side": "coloredextradetails:block/polished_granite_pillar",
+    "end": "coloredextradetails:block/polished_granite_pillar_top"
+  }
+}

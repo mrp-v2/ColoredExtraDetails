@@ -1,0 +1,8 @@
+{
+  "type": "additionalcolors:crafting_colored",
+  "ingredient": {
+    "tag": "coloredextradetails:end_stone_pillar"
+  },
+  "result": "coloredextradetails:brown_end_stone_pillar",
+  "count": 1
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "coloredextradetails:purpur_bricks_base"
+    }
+  ],
+  "result": {
+    "item": "extradetails:purpur_bricks"
+  }
+}

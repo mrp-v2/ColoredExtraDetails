@@ -1,0 +1,8 @@
+{
+  "parent": "mrplibrary:block/slab_tinted",
+  "textures": {
+    "side": "coloredextradetails:block/polished_cobblestone",
+    "bottom": "coloredextradetails:block/polished_cobblestone",
+    "top": "coloredextradetails:block/polished_cobblestone"
+  }
+}

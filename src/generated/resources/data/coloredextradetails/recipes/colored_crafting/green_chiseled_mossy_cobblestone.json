@@ -1,0 +1,8 @@
+{
+  "type": "additionalcolors:crafting_colored",
+  "ingredient": {
+    "tag": "coloredextradetails:chiseled_mossy_cobblestone"
+  },
+  "result": "coloredextradetails:green_chiseled_mossy_cobblestone",
+  "count": 1
+}

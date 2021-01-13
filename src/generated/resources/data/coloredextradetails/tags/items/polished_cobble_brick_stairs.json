@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "coloredextradetails:light_blue_polished_cobble_brick_stairs",
+    "coloredextradetails:yellow_polished_cobble_brick_stairs",
+    "coloredextradetails:gray_polished_cobble_brick_stairs",
+    "coloredextradetails:white_polished_cobble_brick_stairs",
+    "coloredextradetails:black_polished_cobble_brick_stairs",
+    "coloredextradetails:green_polished_cobble_brick_stairs",
+    "coloredextradetails:red_polished_cobble_brick_stairs",
+    "coloredextradetails:cyan_polished_cobble_brick_stairs",
+    "coloredextradetails:brown_polished_cobble_brick_stairs",
+    "coloredextradetails:blue_polished_cobble_brick_stairs",
+    "coloredextradetails:orange_polished_cobble_brick_stairs",
+    "coloredextradetails:lime_polished_cobble_brick_stairs",
+    "coloredextradetails:pink_polished_cobble_brick_stairs",
+    "coloredextradetails:purple_polished_cobble_brick_stairs",
+    "coloredextradetails:light_gray_polished_cobble_brick_stairs",
+    "coloredextradetails:magenta_polished_cobble_brick_stairs",
+    "extradetails:polished_cobble_brick_stairs"
+  ]
+}

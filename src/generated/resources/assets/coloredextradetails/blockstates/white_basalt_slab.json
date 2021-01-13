@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=top": {
+      "model": "coloredextradetails:block/basalt_slab_top"
+    },
+    "type=bottom": {
+      "model": "coloredextradetails:block/basalt_slab"
+    },
+    "type=double": {
+      "model": "additionalcolors:block/basalt"
+    }
+  }
+}

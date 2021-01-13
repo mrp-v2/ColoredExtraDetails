@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "coloredextradetails:block/chiseled_polished_andesite_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "coloredextradetails:block/chiseled_polished_andesite"
+    },
+    "axis=z": {
+      "model": "coloredextradetails:block/chiseled_polished_andesite_horizontal",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "additionalcolors:crafting_colored",
+  "ingredient": {
+    "tag": "additionalcolors:obsidian_slab"
+  },
+  "result": "coloredextradetails:pink_obsidian_slab",
+  "count": 1
+}

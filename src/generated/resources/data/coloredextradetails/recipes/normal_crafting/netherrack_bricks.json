@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "coloredextradetails:netherrack_bricks_base"
+    }
+  ],
+  "result": {
+    "item": "extradetails:netherrack_bricks"
+  }
+}

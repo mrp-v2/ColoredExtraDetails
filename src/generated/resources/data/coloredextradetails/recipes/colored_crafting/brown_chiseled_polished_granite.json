@@ -1,0 +1,8 @@
+{
+  "type": "additionalcolors:crafting_colored",
+  "ingredient": {
+    "tag": "coloredextradetails:chiseled_polished_granite"
+  },
+  "result": "coloredextradetails:brown_chiseled_polished_granite",
+  "count": 1
+}

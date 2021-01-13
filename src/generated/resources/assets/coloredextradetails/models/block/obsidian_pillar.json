@@ -1,0 +1,7 @@
+{
+  "parent": "mrplibrary:block/cube_column_tinted",
+  "textures": {
+    "side": "coloredextradetails:block/obsidian_pillar",
+    "end": "coloredextradetails:block/obsidian_pillar_top"
+  }
+}

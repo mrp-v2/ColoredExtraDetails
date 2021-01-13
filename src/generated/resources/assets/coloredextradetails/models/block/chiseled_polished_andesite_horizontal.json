@@ -1,0 +1,7 @@
+{
+  "parent": "mrplibrary:block/cube_column_horizontal_tinted_tinted",
+  "textures": {
+    "side": "coloredextradetails:block/chiseled_polished_andesite",
+    "end": "coloredextradetails:block/chiseled_polished_andesite_top"
+  }
+}

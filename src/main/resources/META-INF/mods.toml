@@ -23,9 +23,21 @@ license="All rights reserved"
     versionRange="[${mcVersion}]"
     ordering="NONE"
     side="BOTH"
-#[[dependencies.${modId}]]
-#    modId="mrplibrary"
-#    mandatory=true
-#    versionRange="[${mcVersion}-${mrpLibAPI},${mcVersion}-${mrpLibNextAPI})"
-#    ordering="NONE"
-#    side="BOTH"
+[[dependencies.${modId}]]
+    modId="mrplibrary"
+    mandatory=true
+    versionRange="[${mrpLibAPI},${mrpLibNextAPI})"
+    ordering="AFTER"
+    side="BOTH"
+[[dependencies.${modId}]]
+    modId="additionalcolors"
+    mandatory=true
+    versionRange="[${additionalColorsAPI},${additionalColorsNextAPI})"
+    ordering="AFTER"
+    side="BOTH"
+[[dependencies.${modId}]]
+    modId="extradetails"
+    mandatory=true
+    versionRange="[1.0,1.1)"
+    ordering="AFTER"
+    side="BOTH"

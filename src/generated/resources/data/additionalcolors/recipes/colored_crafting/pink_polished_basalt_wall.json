@@ -1,0 +1,8 @@
+{
+  "type": "additionalcolors:crafting_colored",
+  "ingredient": {
+    "tag": "additionalcolors:polished_basalt_wall"
+  },
+  "result": "coloredextradetails:pink_polished_basalt_wall",
+  "count": 1
+}

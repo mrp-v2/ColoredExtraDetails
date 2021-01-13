@@ -8,3 +8,5 @@
 # other
 /run/
 /logs/
+/common-build.gradle
+/extradetails-resources/

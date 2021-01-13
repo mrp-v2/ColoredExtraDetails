@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=top": {
+      "model": "coloredextradetails:block/netherrack_slab_top"
+    },
+    "type=bottom": {
+      "model": "coloredextradetails:block/netherrack_slab"
+    },
+    "type=double": {
+      "model": "additionalcolors:block/netherrack"
+    }
+  }
+}

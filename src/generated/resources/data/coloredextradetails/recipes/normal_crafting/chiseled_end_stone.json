@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "coloredextradetails:chiseled_end_stone_base"
+    }
+  ],
+  "result": {
+    "item": "extradetails:chiseled_end_stone"
+  }
+}

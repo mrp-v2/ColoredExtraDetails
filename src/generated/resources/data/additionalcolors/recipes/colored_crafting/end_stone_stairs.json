@@ -1,0 +1,8 @@
+{
+  "type": "additionalcolors:crafting_colored",
+  "ingredient": {
+    "tag": "additionalcolors:end_stone_stairs_base"
+  },
+  "result": "extradetails:end_stone_stairs",
+  "count": 1
+}

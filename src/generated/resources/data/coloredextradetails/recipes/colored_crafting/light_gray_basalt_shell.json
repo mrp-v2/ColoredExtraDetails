@@ -1,0 +1,8 @@
+{
+  "type": "additionalcolors:crafting_colored",
+  "ingredient": {
+    "tag": "coloredextradetails:basalt_shell"
+  },
+  "result": "coloredextradetails:light_gray_basalt_shell",
+  "count": 1
+}

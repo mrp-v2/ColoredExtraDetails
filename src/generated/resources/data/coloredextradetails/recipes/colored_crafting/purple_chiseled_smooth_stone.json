@@ -1,0 +1,8 @@
+{
+  "type": "additionalcolors:crafting_colored",
+  "ingredient": {
+    "tag": "coloredextradetails:chiseled_smooth_stone"
+  },
+  "result": "coloredextradetails:purple_chiseled_smooth_stone",
+  "count": 1
+}

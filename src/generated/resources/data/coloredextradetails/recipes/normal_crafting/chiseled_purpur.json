@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "coloredextradetails:chiseled_purpur_base"
+    }
+  ],
+  "result": {
+    "item": "extradetails:chiseled_purpur"
+  }
+}

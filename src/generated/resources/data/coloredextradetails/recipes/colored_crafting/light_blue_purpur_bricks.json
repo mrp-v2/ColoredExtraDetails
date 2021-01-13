@@ -1,0 +1,8 @@
+{
+  "type": "additionalcolors:crafting_colored",
+  "ingredient": {
+    "tag": "coloredextradetails:purpur_bricks"
+  },
+  "result": "coloredextradetails:light_blue_purpur_bricks",
+  "count": 1
+}

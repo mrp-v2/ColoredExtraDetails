@@ -1,0 +1,8 @@
+{
+  "type": "additionalcolors:crafting_colored",
+  "ingredient": {
+    "tag": "coloredextradetails:polished_purpur"
+  },
+  "result": "coloredextradetails:white_polished_purpur",
+  "count": 1
+}

@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "coloredextradetails:light_blue_sandstone_brick_wall",
+    "coloredextradetails:yellow_sandstone_brick_wall",
+    "coloredextradetails:gray_sandstone_brick_wall",
+    "coloredextradetails:white_sandstone_brick_wall",
+    "coloredextradetails:black_sandstone_brick_wall",
+    "coloredextradetails:green_sandstone_brick_wall",
+    "coloredextradetails:red_sandstone_brick_wall",
+    "coloredextradetails:cyan_sandstone_brick_wall",
+    "coloredextradetails:brown_sandstone_brick_wall",
+    "coloredextradetails:blue_sandstone_brick_wall",
+    "coloredextradetails:orange_sandstone_brick_wall",
+    "coloredextradetails:lime_sandstone_brick_wall",
+    "coloredextradetails:pink_sandstone_brick_wall",
+    "coloredextradetails:purple_sandstone_brick_wall",
+    "coloredextradetails:light_gray_sandstone_brick_wall",
+    "coloredextradetails:magenta_sandstone_brick_wall",
+    "extradetails:sandstone_brick_wall"
+  ]
+}

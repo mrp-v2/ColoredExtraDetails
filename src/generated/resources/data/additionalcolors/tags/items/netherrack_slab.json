@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "coloredextradetails:light_blue_netherrack_slab",
+    "coloredextradetails:yellow_netherrack_slab",
+    "coloredextradetails:gray_netherrack_slab",
+    "coloredextradetails:white_netherrack_slab",
+    "coloredextradetails:black_netherrack_slab",
+    "coloredextradetails:green_netherrack_slab",
+    "coloredextradetails:red_netherrack_slab",
+    "coloredextradetails:cyan_netherrack_slab",
+    "coloredextradetails:brown_netherrack_slab",
+    "coloredextradetails:blue_netherrack_slab",
+    "coloredextradetails:orange_netherrack_slab",
+    "coloredextradetails:lime_netherrack_slab",
+    "coloredextradetails:pink_netherrack_slab",
+    "coloredextradetails:purple_netherrack_slab",
+    "coloredextradetails:light_gray_netherrack_slab",
+    "coloredextradetails:magenta_netherrack_slab",
+    "extradetails:netherrack_slab"
+  ]
+}

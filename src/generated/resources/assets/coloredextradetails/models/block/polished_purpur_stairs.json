@@ -1,0 +1,8 @@
+{
+  "parent": "mrplibrary:block/stairs_tinted",
+  "textures": {
+    "side": "coloredextradetails:block/polished_purpur",
+    "bottom": "coloredextradetails:block/polished_purpur",
+    "top": "coloredextradetails:block/polished_purpur"
+  }
+}

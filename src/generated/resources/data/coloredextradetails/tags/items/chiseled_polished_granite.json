@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "coloredextradetails:light_blue_chiseled_polished_granite",
+    "coloredextradetails:yellow_chiseled_polished_granite",
+    "coloredextradetails:gray_chiseled_polished_granite",
+    "coloredextradetails:white_chiseled_polished_granite",
+    "coloredextradetails:black_chiseled_polished_granite",
+    "coloredextradetails:green_chiseled_polished_granite",
+    "coloredextradetails:red_chiseled_polished_granite",
+    "coloredextradetails:cyan_chiseled_polished_granite",
+    "coloredextradetails:brown_chiseled_polished_granite",
+    "coloredextradetails:blue_chiseled_polished_granite",
+    "coloredextradetails:orange_chiseled_polished_granite",
+    "coloredextradetails:lime_chiseled_polished_granite",
+    "coloredextradetails:pink_chiseled_polished_granite",
+    "coloredextradetails:purple_chiseled_polished_granite",
+    "coloredextradetails:light_gray_chiseled_polished_granite",
+    "coloredextradetails:magenta_chiseled_polished_granite",
+    "extradetails:chiseled_polished_granite"
+  ]
+}

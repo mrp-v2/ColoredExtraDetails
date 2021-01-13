@@ -9,6 +9,9 @@ buildscript {
         maven {
             url = 'https://files.minecraftforge.net/maven'
         }
+        maven {
+            url = 'https://plugins.gradle.org/m2'
+        }
         jcenter()
         mavenCentral()
         maven {
@@ -18,11 +21,12 @@ buildscript {
     dependencies {
         classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '3.+', changing: true
         classpath 'org.spongepowered:mixingradle:0.7-SNAPSHOT'
+        classpath group: 'gradle.plugin.com.matthewprenger', name: 'CurseGradle', version: '1.4.0'
     }
 }
 apply plugin: 'net.minecraftforge.gradle'
-// Only edit below this line, the above code adds and enables the necessary things for Forge to be setup.
 apply plugin: 'maven-publish'
+apply plugin: 'com.matthewprenger.cursegradle'
 String mcVersion = version.split('-')[0]
 if (forgeVersion == 'latest' || forgeVersion == 'recommended')
 {
@@ -39,7 +43,6 @@ if (minimumForgeVersion == 'none')
 {
     minimumForgeVersion = forgeMajor
 }
-String mcNextVersion = '1.' + ((mcVersion.split('\\.')[1] as int) + 1)
 String homepageURL = "https://www.curseforge.com/minecraft/mc-mods/${modDisplayName.replace(' ', '-').toLowerCase()}"
 String issuesURL = "${homepageURL}/issues"
 String updateURL = "https://raw.githubusercontent.com/mrp-v2/${capitalizedModId}/master/update.json"
@@ -58,9 +61,32 @@ if (mrpLibVersion != 'none')
     }
     mrpLibNextAPI = mrpLibAPI.split('\\.')[0] + '.' + ((mrpLibAPI.split('\\.')[1] as int) + 1)
 }
+String additionalColorsAPI = 'none', additionalColorsPatch = 'none', additionalColorsNextAPI = 'none'
+if (additionalColorsVersion != 'none')
+{
+    if (additionalColorsVersion.contains(','))
+    {
+        int splitIndex = additionalColorsVersion.indexOf(',')
+        additionalColorsAPI = additionalColorsVersion.substring(0, splitIndex)
+        additionalColorsPatch = '.' + additionalColorsVersion.substring(splitIndex + 1)
+    } else
+    {
+        additionalColorsAPI = additionalColorsVersion
+        additionalColorsPatch = ''
+    }
+    additionalColorsNextAPI =
+            additionalColorsAPI.split('\\.')[0] + '.' + ((additionalColorsAPI.split('\\.')[1] as int) + 1)
+}
 archivesBaseName = modId
 group = "${author}.${archivesBaseName}"
 boolean usesMixins = file("src/main/resources/${modId}.mixins.json").exists()
+File secretFile = file '../secrets.json'
+
+String githubPassword = 'none'
+if (secretFile.exists())
+{
+    githubPassword = new JsonSlurper().parse(secretFile).get('github-packages-token')
+}
 
 println('Java: ' + System.getProperty('java.version') + ' JVM: ' + System.getProperty('java.vm.version') + '(' +
         System.getProperty('java.vendor') + ') Arch: ' + System.getProperty('os.arch'))
@@ -120,7 +146,10 @@ minecraft {
             property 'forge.logging.markers', 'REGISTRIES'
             property 'forge.logging.console.level', 'debug'
             args '--mod', modId, '--all', '--output', file('src/generated/resources/'), '--existing',
-                    sourceSets.main.output.resourcesDir
+                    sourceSets.main.output.resourcesDir, '--existing',
+                    file('../AdditionalColors/build/resources/main/'),
+                    '--existing', file('../mrpLibrary/build/resources/main'), '--existing',
+                    file("${compatibleModId}-resources")
             mods {
                 mod {
                     source sourceSets.main
@@ -136,25 +165,36 @@ repositories {
         url = new URL('https://maven.pkg.github.com/mrp-v2/mrpLibrary')
         credentials {
             username = 'mrp-v2'
-            File secretFile = new File('../secrets.json')
-            String token = System.getenv('GITHUB_TOKEN')
-            if (secretFile.exists())
-            {
-                password = new JsonSlurper().parse(new File('../secrets.json')).get('github-packages-token')
-            } else if (token != null)
-            {
-                password = token
-            }
+            password = githubPassword
         }
     }
+    maven {
+        name = 'Additional Colors'
+        url = new URL('https://maven.pkg.github.com/mrp-v2/AdditionalColors')
+        credentials {
+            username = 'mrp-v2'
+            password = githubPassword
+        }
+    }
+    maven {
+        name = 'CurseMaven'
+        url = new URL('https://www.cursemaven.com')
+    }
+    mavenLocal()
 }
 
 dependencies {
     minecraft "net.minecraftforge:forge:${mcVersion}-${forgeVersion}"
     if (mrpLibAPI != 'none' && mrpLibPatch != 'none')
     {
-        compile fg.deobf("mrp_v2.mrplibrary:mrplibrary:${mcVersion}-${mrpLibAPI}${mrpLibPatch}-forge")
+        compile fg.deobf("mrp_v2.mrplibrary:mrplibrary:${mrpLibAPI}${mrpLibPatch}")
     }
+    if (additionalColorsAPI != 'none' && additionalColorsPatch != 'none')
+    {
+        compile fg.
+                deobf("mrp_v2.additionalcolors:additionalcolors:${additionalColorsAPI}${additionalColorsPatch}")
+    }
+    compile fg.deobf("curse.maven:${compatibleModId}-${compatibleModProjectId}:${compatibleModFileId}")
 }
 
 jar {
@@ -178,12 +218,16 @@ jar {
 jar.finalizedBy('reobfJar')
 
 processResources {
+    String tempMCVersion = mcVersion
+    if (mcVersion == "1.16.5")
+    {
+        tempMCVersion = "1.16.4"
+    }
     inputs.property 'version', project.version
     inputs.property 'modId', modId
     inputs.property 'forgeMajor', forgeMajor
     inputs.property 'minimumForgeVersion', minimumForgeVersion
-    inputs.property 'mcVersion', mcVersion
-    inputs.property 'mcNextVersion', mcNextVersion
+    inputs.property 'mcVersion', tempMCVersion
     inputs.property 'homepageURL', homepageURL
     inputs.property 'modDisplayName', modDisplayName
     inputs.property 'capitalizedModId', capitalizedModId
@@ -196,6 +240,11 @@ processResources {
         inputs.property 'mrpLibAPI', mrpLibAPI
         inputs.property 'mrpLibNextAPI', mrpLibNextAPI
     }
+    if (additionalColorsVersion != 'none')
+    {
+        inputs.property 'additionalColorsAPI', additionalColorsAPI
+        inputs.property 'additionalColorsNextAPI', additionalColorsNextAPI
+    }
     String[] files = new String[2]
     files[0] = 'META-INF/mods.toml'
     files[1] = 'pack.mcmeta'
@@ -203,18 +252,28 @@ processResources {
         include files
         Map<String, ?> properties = new HashMap<>()
         properties.putAll('version': project.version, 'modId': modId, 'forgeMajor': forgeMajor,
-                'minimumForgeVersion': minimumForgeVersion, 'mcVersion': mcVersion, 'mcNextVersion': mcNextVersion,
+                'minimumForgeVersion': minimumForgeVersion, 'mcVersion': tempMCVersion,
                 'homepageURL': homepageURL, 'modDisplayName': modDisplayName, 'capitalizedModId': capitalizedModId,
                 'modDescription': modDescription, 'author': author, 'updateURL': updateURL, 'issuesURL': issuesURL)
         if (mrpLibVersion != 'none')
         {
-            properties.putAll(mrpLibAPI: mrpLibAPI, 'mrpLibNextAPI': mrpLibNextAPI)
+            properties.putAll('mrpLibAPI': mrpLibAPI, 'mrpLibNextAPI': mrpLibNextAPI)
+        }
+        if (additionalColorsVersion != 'none')
+        {
+            properties.putAll('additionalColorsAPI': additionalColorsAPI,
+                    'additionalColorsNextAPI': additionalColorsNextAPI)
         }
         expand properties
     }
     from(sourceSets.main.resources.srcDirs) {
         exclude files
     }
+}
+
+task sourcesJar(type: Jar) {
+    from sourceSets.main.allJava
+    classifier = 'sources'
 }
 
 publishing {
@@ -224,7 +283,7 @@ publishing {
             url = uri('https://maven.pkg.github.com/mrp-v2/' + capitalizedModId)
             credentials {
                 username = 'mrp-v2'
-                password = System.getenv('GITHUB_TOKEN')
+                password = githubPassword
             }
         }
     }
@@ -232,6 +291,7 @@ publishing {
         gpr(MavenPublication) {
             artifactId modId
             artifact jar
+            artifact sourcesJar
         }
     }
 }
@@ -273,5 +333,58 @@ if (usesMixins)
 
     mixin {
         add sourceSets.main, "${modId}.refmap.json"
+    }
+}
+
+task publishToGithubAndCurseforge {
+    dependsOn ':publishGprPublicationToGitHubPackagesRepository'
+    dependsOn ":curseforge${projectId}"
+}
+
+curseforge {
+    if (secretFile.exists())
+    {
+        apiKey = new JsonSlurper().parse(secretFile).get('curseforge-api-token')
+    }
+    project {
+        id = projectId
+        StringBuilder out = new StringBuilder(), error = new StringBuilder()
+        Process previousVersionProcess = ['git', 'describe', '--tags', '--abbrev=0', "${version}^"].execute()
+        previousVersionProcess.consumeProcessOutput(out, error)
+        previousVersionProcess.waitFor()
+        String previousVersion = out.toString().trim()
+        out = new StringBuilder()
+        println('Previous Version: ' + previousVersion)
+        println('Error?: ' + error.toString().trim())
+        error = new StringBuilder()
+        Process gitLogProcess = ['git', 'log', '--pretty=format:"%s"', "${previousVersion}..${version}"].execute()
+        gitLogProcess.consumeProcessOutput(out, error)
+        gitLogProcess.waitFor()
+        String changelogStr = out.toString().trim()
+        println('Changelog: ' + changelogStr)
+        println('Error?: ' + error.toString().trim())
+        changelog = changelogStr
+        releaseType = 'release'
+        addGameVersion mcVersion
+        if (mrpLibVersion != 'none' || additionalColorsVersion != 'none')
+        {
+            relations {
+                if (mrpLibVersion != 'none')
+                {
+                    requiredDependency 'mrp-library'
+                }
+                if (additionalColorsVersion != 'none')
+                {
+                    requiredDependency 'additional-colors'
+                }
+                requiredDependency "${compatibleModId}"
+            }
+        }
+    }
+    options {
+        debug = false
+        javaVersionAutoDetect = false
+        javaIntegration = true
+        forgeGradleIntegration = true
     }
 }

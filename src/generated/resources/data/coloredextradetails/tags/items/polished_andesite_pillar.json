@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "coloredextradetails:light_blue_polished_andesite_pillar",
+    "coloredextradetails:yellow_polished_andesite_pillar",
+    "coloredextradetails:gray_polished_andesite_pillar",
+    "coloredextradetails:white_polished_andesite_pillar",
+    "coloredextradetails:black_polished_andesite_pillar",
+    "coloredextradetails:green_polished_andesite_pillar",
+    "coloredextradetails:red_polished_andesite_pillar",
+    "coloredextradetails:cyan_polished_andesite_pillar",
+    "coloredextradetails:brown_polished_andesite_pillar",
+    "coloredextradetails:blue_polished_andesite_pillar",
+    "coloredextradetails:orange_polished_andesite_pillar",
+    "coloredextradetails:lime_polished_andesite_pillar",
+    "coloredextradetails:pink_polished_andesite_pillar",
+    "coloredextradetails:purple_polished_andesite_pillar",
+    "coloredextradetails:light_gray_polished_andesite_pillar",
+    "coloredextradetails:magenta_polished_andesite_pillar",
+    "extradetails:polished_andesite_pillar"
+  ]
+}

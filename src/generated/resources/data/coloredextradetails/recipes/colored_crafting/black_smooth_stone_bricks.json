@@ -1,0 +1,8 @@
+{
+  "type": "additionalcolors:crafting_colored",
+  "ingredient": {
+    "tag": "coloredextradetails:smooth_stone_bricks"
+  },
+  "result": "coloredextradetails:black_smooth_stone_bricks",
+  "count": 1
+}

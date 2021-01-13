@@ -1,0 +1,8 @@
+{
+  "type": "additionalcolors:crafting_colored",
+  "ingredient": {
+    "tag": "coloredextradetails:sandstone_pillar"
+  },
+  "result": "coloredextradetails:black_sandstone_pillar",
+  "count": 1
+}

@@ -1,0 +1,8 @@
+{
+  "type": "additionalcolors:crafting_colored",
+  "ingredient": {
+    "tag": "coloredextradetails:chiseled_netherrack"
+  },
+  "result": "coloredextradetails:cyan_chiseled_netherrack",
+  "count": 1
+}

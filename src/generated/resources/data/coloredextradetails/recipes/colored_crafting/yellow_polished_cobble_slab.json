@@ -1,0 +1,8 @@
+{
+  "type": "additionalcolors:crafting_colored",
+  "ingredient": {
+    "tag": "coloredextradetails:polished_cobble_slab"
+  },
+  "result": "coloredextradetails:yellow_polished_cobble_slab",
+  "count": 1
+}

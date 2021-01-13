@@ -1,0 +1,8 @@
+{
+  "type": "additionalcolors:crafting_colored",
+  "ingredient": {
+    "tag": "coloredextradetails:smooth_stone_brick_stairs"
+  },
+  "result": "coloredextradetails:blue_smooth_stone_brick_stairs",
+  "count": 1
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=top": {
+      "model": "coloredextradetails:block/polished_prismarine_slab_top"
+    },
+    "type=bottom": {
+      "model": "coloredextradetails:block/polished_prismarine_slab"
+    },
+    "type=double": {
+      "model": "coloredextradetails:block/polished_prismarine"
+    }
+  }
+}

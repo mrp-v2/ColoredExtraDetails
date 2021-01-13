@@ -1,0 +1,8 @@
+{
+  "type": "additionalcolors:crafting_colored",
+  "ingredient": {
+    "tag": "additionalcolors:polished_basalt_slab"
+  },
+  "result": "coloredextradetails:orange_polished_basalt_slab",
+  "count": 1
+}

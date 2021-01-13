@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=top": {
+      "model": "coloredextradetails:block/end_stone_slab_top"
+    },
+    "type=bottom": {
+      "model": "coloredextradetails:block/end_stone_slab"
+    },
+    "type=double": {
+      "model": "additionalcolors:block/end_stone"
+    }
+  }
+}

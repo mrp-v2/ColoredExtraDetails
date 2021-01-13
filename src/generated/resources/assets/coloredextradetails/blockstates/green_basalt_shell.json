@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "coloredextradetails:block/basalt_shell_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "coloredextradetails:block/basalt_shell"
+    },
+    "axis=z": {
+      "model": "coloredextradetails:block/basalt_shell_horizontal",
+      "x": 90
+    }
+  }
+}

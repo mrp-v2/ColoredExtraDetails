@@ -1,0 +1,8 @@
+{
+  "parent": "mrplibrary:block/stairs_inner_tinted",
+  "textures": {
+    "side": "additionalcolors:block/netherrack",
+    "bottom": "additionalcolors:block/netherrack",
+    "top": "additionalcolors:block/netherrack"
+  }
+}

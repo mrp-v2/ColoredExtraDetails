@@ -1,0 +1,8 @@
+{
+  "parent": "mrplibrary:block/slab_top_tinted",
+  "textures": {
+    "side": "coloredextradetails:block/polished_netherrack",
+    "bottom": "coloredextradetails:block/polished_netherrack",
+    "top": "coloredextradetails:block/polished_netherrack"
+  }
+}

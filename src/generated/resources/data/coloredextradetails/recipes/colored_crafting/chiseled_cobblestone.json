@@ -1,0 +1,8 @@
+{
+  "type": "additionalcolors:crafting_colored",
+  "ingredient": {
+    "tag": "coloredextradetails:chiseled_cobblestone_base"
+  },
+  "result": "extradetails:chiseled_cobblestone",
+  "count": 1
+}

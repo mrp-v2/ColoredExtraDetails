@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "coloredextradetails:light_blue_polished_cobblestone_bricks",
+    "coloredextradetails:yellow_polished_cobblestone_bricks",
+    "coloredextradetails:gray_polished_cobblestone_bricks",
+    "coloredextradetails:white_polished_cobblestone_bricks",
+    "coloredextradetails:black_polished_cobblestone_bricks",
+    "coloredextradetails:green_polished_cobblestone_bricks",
+    "coloredextradetails:red_polished_cobblestone_bricks",
+    "coloredextradetails:cyan_polished_cobblestone_bricks",
+    "coloredextradetails:brown_polished_cobblestone_bricks",
+    "coloredextradetails:blue_polished_cobblestone_bricks",
+    "coloredextradetails:orange_polished_cobblestone_bricks",
+    "coloredextradetails:lime_polished_cobblestone_bricks",
+    "coloredextradetails:pink_polished_cobblestone_bricks",
+    "coloredextradetails:purple_polished_cobblestone_bricks",
+    "coloredextradetails:light_gray_polished_cobblestone_bricks",
+    "coloredextradetails:magenta_polished_cobblestone_bricks",
+    "extradetails:polished_cobblestone_bricks"
+  ]
+}

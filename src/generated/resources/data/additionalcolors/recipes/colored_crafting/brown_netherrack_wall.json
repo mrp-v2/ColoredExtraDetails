@@ -1,0 +1,8 @@
+{
+  "type": "additionalcolors:crafting_colored",
+  "ingredient": {
+    "tag": "additionalcolors:netherrack_wall"
+  },
+  "result": "coloredextradetails:brown_netherrack_wall",
+  "count": 1
+}

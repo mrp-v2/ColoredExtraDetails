@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "coloredextradetails:chiseled_dark_prismarine_base"
+    }
+  ],
+  "result": {
+    "item": "extradetails:chiseled_dark_prismarine"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "coloredextradetails:light_blue_chiseled_mossy_cobblestone",
+    "coloredextradetails:yellow_chiseled_mossy_cobblestone",
+    "coloredextradetails:gray_chiseled_mossy_cobblestone",
+    "coloredextradetails:white_chiseled_mossy_cobblestone",
+    "coloredextradetails:black_chiseled_mossy_cobblestone",
+    "coloredextradetails:green_chiseled_mossy_cobblestone",
+    "coloredextradetails:red_chiseled_mossy_cobblestone",
+    "coloredextradetails:cyan_chiseled_mossy_cobblestone",
+    "coloredextradetails:brown_chiseled_mossy_cobblestone",
+    "coloredextradetails:blue_chiseled_mossy_cobblestone",
+    "coloredextradetails:orange_chiseled_mossy_cobblestone",
+    "coloredextradetails:lime_chiseled_mossy_cobblestone",
+    "coloredextradetails:pink_chiseled_mossy_cobblestone",
+    "coloredextradetails:purple_chiseled_mossy_cobblestone",
+    "coloredextradetails:light_gray_chiseled_mossy_cobblestone",
+    "coloredextradetails:magenta_chiseled_mossy_cobblestone",
+    "extradetails:chiseled_mossy_cobblestone"
+  ]
+}

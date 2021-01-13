@@ -1,0 +1,8 @@
+{
+  "type": "additionalcolors:crafting_colored",
+  "ingredient": {
+    "tag": "coloredextradetails:polished_end_stone"
+  },
+  "result": "coloredextradetails:orange_polished_end_stone",
+  "count": 1
+}

@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "coloredextradetails:light_blue_sandstone_brick_stairs",
+    "coloredextradetails:yellow_sandstone_brick_stairs",
+    "coloredextradetails:gray_sandstone_brick_stairs",
+    "coloredextradetails:white_sandstone_brick_stairs",
+    "coloredextradetails:black_sandstone_brick_stairs",
+    "coloredextradetails:green_sandstone_brick_stairs",
+    "coloredextradetails:red_sandstone_brick_stairs",
+    "coloredextradetails:cyan_sandstone_brick_stairs",
+    "coloredextradetails:brown_sandstone_brick_stairs",
+    "coloredextradetails:blue_sandstone_brick_stairs",
+    "coloredextradetails:orange_sandstone_brick_stairs",
+    "coloredextradetails:lime_sandstone_brick_stairs",
+    "coloredextradetails:pink_sandstone_brick_stairs",
+    "coloredextradetails:purple_sandstone_brick_stairs",
+    "coloredextradetails:light_gray_sandstone_brick_stairs",
+    "coloredextradetails:magenta_sandstone_brick_stairs",
+    "extradetails:sandstone_brick_stairs"
+  ]
+}

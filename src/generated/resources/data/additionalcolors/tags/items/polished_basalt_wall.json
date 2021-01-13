@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "coloredextradetails:light_blue_polished_basalt_wall",
+    "coloredextradetails:yellow_polished_basalt_wall",
+    "coloredextradetails:gray_polished_basalt_wall",
+    "coloredextradetails:white_polished_basalt_wall",
+    "coloredextradetails:black_polished_basalt_wall",
+    "coloredextradetails:green_polished_basalt_wall",
+    "coloredextradetails:red_polished_basalt_wall",
+    "coloredextradetails:cyan_polished_basalt_wall",
+    "coloredextradetails:brown_polished_basalt_wall",
+    "coloredextradetails:blue_polished_basalt_wall",
+    "coloredextradetails:orange_polished_basalt_wall",
+    "coloredextradetails:lime_polished_basalt_wall",
+    "coloredextradetails:pink_polished_basalt_wall",
+    "coloredextradetails:purple_polished_basalt_wall",
+    "coloredextradetails:light_gray_polished_basalt_wall",
+    "coloredextradetails:magenta_polished_basalt_wall",
+    "extradetails:polished_basalt_wall"
+  ]
+}

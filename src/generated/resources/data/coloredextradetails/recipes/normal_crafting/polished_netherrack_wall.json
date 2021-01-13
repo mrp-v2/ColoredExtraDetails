@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "coloredextradetails:polished_netherrack_wall_base"
+    }
+  ],
+  "result": {
+    "item": "extradetails:polished_netherrack_wall"
+  }
+}

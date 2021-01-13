@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "coloredextradetails:light_blue_sandstone_pillar",
+    "coloredextradetails:yellow_sandstone_pillar",
+    "coloredextradetails:gray_sandstone_pillar",
+    "coloredextradetails:white_sandstone_pillar",
+    "coloredextradetails:black_sandstone_pillar",
+    "coloredextradetails:green_sandstone_pillar",
+    "coloredextradetails:red_sandstone_pillar",
+    "coloredextradetails:cyan_sandstone_pillar",
+    "coloredextradetails:brown_sandstone_pillar",
+    "coloredextradetails:blue_sandstone_pillar",
+    "coloredextradetails:orange_sandstone_pillar",
+    "coloredextradetails:lime_sandstone_pillar",
+    "coloredextradetails:pink_sandstone_pillar",
+    "coloredextradetails:purple_sandstone_pillar",
+    "coloredextradetails:light_gray_sandstone_pillar",
+    "coloredextradetails:magenta_sandstone_pillar",
+    "extradetails:sandstone_pillar"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=top": {
+      "model": "coloredextradetails:block/smooth_stone_brick_slab_top"
+    },
+    "type=bottom": {
+      "model": "coloredextradetails:block/smooth_stone_brick_slab"
+    },
+    "type=double": {
+      "model": "coloredextradetails:block/smooth_stone_bricks"
+    }
+  }
+}

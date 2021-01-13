@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "coloredextradetails:light_blue_chiseled_cobblestone",
+    "coloredextradetails:yellow_chiseled_cobblestone",
+    "coloredextradetails:gray_chiseled_cobblestone",
+    "coloredextradetails:white_chiseled_cobblestone",
+    "coloredextradetails:black_chiseled_cobblestone",
+    "coloredextradetails:green_chiseled_cobblestone",
+    "coloredextradetails:red_chiseled_cobblestone",
+    "coloredextradetails:cyan_chiseled_cobblestone",
+    "coloredextradetails:brown_chiseled_cobblestone",
+    "coloredextradetails:blue_chiseled_cobblestone",
+    "coloredextradetails:orange_chiseled_cobblestone",
+    "coloredextradetails:lime_chiseled_cobblestone",
+    "coloredextradetails:pink_chiseled_cobblestone",
+    "coloredextradetails:purple_chiseled_cobblestone",
+    "coloredextradetails:light_gray_chiseled_cobblestone",
+    "coloredextradetails:magenta_chiseled_cobblestone"
+  ]
+}

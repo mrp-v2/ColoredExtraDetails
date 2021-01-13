@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "coloredextradetails:light_blue_chiseled_purpur",
+    "coloredextradetails:yellow_chiseled_purpur",
+    "coloredextradetails:gray_chiseled_purpur",
+    "coloredextradetails:white_chiseled_purpur",
+    "coloredextradetails:black_chiseled_purpur",
+    "coloredextradetails:green_chiseled_purpur",
+    "coloredextradetails:red_chiseled_purpur",
+    "coloredextradetails:cyan_chiseled_purpur",
+    "coloredextradetails:brown_chiseled_purpur",
+    "coloredextradetails:blue_chiseled_purpur",
+    "coloredextradetails:orange_chiseled_purpur",
+    "coloredextradetails:lime_chiseled_purpur",
+    "coloredextradetails:pink_chiseled_purpur",
+    "coloredextradetails:purple_chiseled_purpur",
+    "coloredextradetails:light_gray_chiseled_purpur",
+    "coloredextradetails:magenta_chiseled_purpur",
+    "extradetails:chiseled_purpur"
+  ]
+}

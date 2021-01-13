@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "additionalcolors:basalt_slab_base"
+    }
+  ],
+  "result": {
+    "item": "extradetails:basalt_slab"
+  }
+}

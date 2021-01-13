@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "coloredextradetails:light_blue_polished_andesite_bricks",
+    "coloredextradetails:yellow_polished_andesite_bricks",
+    "coloredextradetails:gray_polished_andesite_bricks",
+    "coloredextradetails:white_polished_andesite_bricks",
+    "coloredextradetails:black_polished_andesite_bricks",
+    "coloredextradetails:green_polished_andesite_bricks",
+    "coloredextradetails:red_polished_andesite_bricks",
+    "coloredextradetails:cyan_polished_andesite_bricks",
+    "coloredextradetails:brown_polished_andesite_bricks",
+    "coloredextradetails:blue_polished_andesite_bricks",
+    "coloredextradetails:orange_polished_andesite_bricks",
+    "coloredextradetails:lime_polished_andesite_bricks",
+    "coloredextradetails:pink_polished_andesite_bricks",
+    "coloredextradetails:purple_polished_andesite_bricks",
+    "coloredextradetails:light_gray_polished_andesite_bricks",
+    "coloredextradetails:magenta_polished_andesite_bricks",
+    "extradetails:polished_andesite_bricks"
+  ]
+}

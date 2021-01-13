@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "coloredextradetails:light_blue_netherrack_brick_slab",
+    "coloredextradetails:yellow_netherrack_brick_slab",
+    "coloredextradetails:gray_netherrack_brick_slab",
+    "coloredextradetails:white_netherrack_brick_slab",
+    "coloredextradetails:black_netherrack_brick_slab",
+    "coloredextradetails:green_netherrack_brick_slab",
+    "coloredextradetails:red_netherrack_brick_slab",
+    "coloredextradetails:cyan_netherrack_brick_slab",
+    "coloredextradetails:brown_netherrack_brick_slab",
+    "coloredextradetails:blue_netherrack_brick_slab",
+    "coloredextradetails:orange_netherrack_brick_slab",
+    "coloredextradetails:lime_netherrack_brick_slab",
+    "coloredextradetails:pink_netherrack_brick_slab",
+    "coloredextradetails:purple_netherrack_brick_slab",
+    "coloredextradetails:light_gray_netherrack_brick_slab",
+    "coloredextradetails:magenta_netherrack_brick_slab"
+  ]
+}

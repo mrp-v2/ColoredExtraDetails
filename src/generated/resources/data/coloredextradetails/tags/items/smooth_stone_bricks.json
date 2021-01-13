@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "coloredextradetails:light_blue_smooth_stone_bricks",
+    "coloredextradetails:yellow_smooth_stone_bricks",
+    "coloredextradetails:gray_smooth_stone_bricks",
+    "coloredextradetails:white_smooth_stone_bricks",
+    "coloredextradetails:black_smooth_stone_bricks",
+    "coloredextradetails:green_smooth_stone_bricks",
+    "coloredextradetails:red_smooth_stone_bricks",
+    "coloredextradetails:cyan_smooth_stone_bricks",
+    "coloredextradetails:brown_smooth_stone_bricks",
+    "coloredextradetails:blue_smooth_stone_bricks",
+    "coloredextradetails:orange_smooth_stone_bricks",
+    "coloredextradetails:lime_smooth_stone_bricks",
+    "coloredextradetails:pink_smooth_stone_bricks",
+    "coloredextradetails:purple_smooth_stone_bricks",
+    "coloredextradetails:light_gray_smooth_stone_bricks",
+    "coloredextradetails:magenta_smooth_stone_bricks",
+    "extradetails:smooth_stone_bricks"
+  ]
+}

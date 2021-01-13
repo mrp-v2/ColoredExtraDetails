@@ -1,0 +1,8 @@
+{
+  "type": "additionalcolors:crafting_colored",
+  "ingredient": {
+    "tag": "coloredextradetails:smooth_stone_brick_slab_base"
+  },
+  "result": "extradetails:smooth_stone_brick_slab",
+  "count": 1
+}

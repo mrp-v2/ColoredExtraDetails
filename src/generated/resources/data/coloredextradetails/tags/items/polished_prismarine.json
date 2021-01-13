@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "coloredextradetails:light_blue_polished_prismarine",
+    "coloredextradetails:yellow_polished_prismarine",
+    "coloredextradetails:gray_polished_prismarine",
+    "coloredextradetails:white_polished_prismarine",
+    "coloredextradetails:black_polished_prismarine",
+    "coloredextradetails:green_polished_prismarine",
+    "coloredextradetails:red_polished_prismarine",
+    "coloredextradetails:cyan_polished_prismarine",
+    "coloredextradetails:brown_polished_prismarine",
+    "coloredextradetails:blue_polished_prismarine",
+    "coloredextradetails:orange_polished_prismarine",
+    "coloredextradetails:lime_polished_prismarine",
+    "coloredextradetails:pink_polished_prismarine",
+    "coloredextradetails:purple_polished_prismarine",
+    "coloredextradetails:light_gray_polished_prismarine",
+    "coloredextradetails:magenta_polished_prismarine",
+    "extradetails:polished_prismarine"
+  ]
+}

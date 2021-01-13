@@ -1,0 +1,8 @@
+{
+  "type": "additionalcolors:crafting_colored",
+  "ingredient": {
+    "tag": "coloredextradetails:polished_prismarine"
+  },
+  "result": "coloredextradetails:brown_polished_prismarine",
+  "count": 1
+}

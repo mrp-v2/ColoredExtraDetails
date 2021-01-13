@@ -1,0 +1,8 @@
+{
+  "type": "additionalcolors:crafting_colored",
+  "ingredient": {
+    "tag": "coloredextradetails:polished_end_stone_wall"
+  },
+  "result": "coloredextradetails:red_polished_end_stone_wall",
+  "count": 1
+}

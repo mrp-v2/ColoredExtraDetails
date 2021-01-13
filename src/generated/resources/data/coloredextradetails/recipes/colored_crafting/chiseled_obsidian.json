@@ -1,0 +1,8 @@
+{
+  "type": "additionalcolors:crafting_colored",
+  "ingredient": {
+    "tag": "coloredextradetails:chiseled_obsidian_base"
+  },
+  "result": "extradetails:chiseled_obsidian",
+  "count": 1
+}

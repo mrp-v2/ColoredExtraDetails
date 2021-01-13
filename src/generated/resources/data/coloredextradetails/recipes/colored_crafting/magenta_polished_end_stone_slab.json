@@ -1,0 +1,8 @@
+{
+  "type": "additionalcolors:crafting_colored",
+  "ingredient": {
+    "tag": "coloredextradetails:polished_end_stone_slab"
+  },
+  "result": "coloredextradetails:magenta_polished_end_stone_slab",
+  "count": 1
+}

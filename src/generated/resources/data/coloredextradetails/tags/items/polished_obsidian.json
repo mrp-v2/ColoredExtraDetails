@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "coloredextradetails:light_blue_polished_obsidian",
+    "coloredextradetails:yellow_polished_obsidian",
+    "coloredextradetails:gray_polished_obsidian",
+    "coloredextradetails:white_polished_obsidian",
+    "coloredextradetails:black_polished_obsidian",
+    "coloredextradetails:green_polished_obsidian",
+    "coloredextradetails:red_polished_obsidian",
+    "coloredextradetails:cyan_polished_obsidian",
+    "coloredextradetails:brown_polished_obsidian",
+    "coloredextradetails:blue_polished_obsidian",
+    "coloredextradetails:orange_polished_obsidian",
+    "coloredextradetails:lime_polished_obsidian",
+    "coloredextradetails:pink_polished_obsidian",
+    "coloredextradetails:purple_polished_obsidian",
+    "coloredextradetails:light_gray_polished_obsidian",
+    "coloredextradetails:magenta_polished_obsidian",
+    "extradetails:polished_obsidian"
+  ]
+}

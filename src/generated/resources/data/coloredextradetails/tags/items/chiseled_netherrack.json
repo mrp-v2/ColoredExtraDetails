@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "coloredextradetails:light_blue_chiseled_netherrack",
+    "coloredextradetails:yellow_chiseled_netherrack",
+    "coloredextradetails:gray_chiseled_netherrack",
+    "coloredextradetails:white_chiseled_netherrack",
+    "coloredextradetails:black_chiseled_netherrack",
+    "coloredextradetails:green_chiseled_netherrack",
+    "coloredextradetails:red_chiseled_netherrack",
+    "coloredextradetails:cyan_chiseled_netherrack",
+    "coloredextradetails:brown_chiseled_netherrack",
+    "coloredextradetails:blue_chiseled_netherrack",
+    "coloredextradetails:orange_chiseled_netherrack",
+    "coloredextradetails:lime_chiseled_netherrack",
+    "coloredextradetails:pink_chiseled_netherrack",
+    "coloredextradetails:purple_chiseled_netherrack",
+    "coloredextradetails:light_gray_chiseled_netherrack",
+    "coloredextradetails:magenta_chiseled_netherrack",
+    "extradetails:chiseled_netherrack"
+  ]
+}

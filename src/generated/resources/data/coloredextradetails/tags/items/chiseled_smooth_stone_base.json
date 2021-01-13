@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "coloredextradetails:light_blue_chiseled_smooth_stone",
+    "coloredextradetails:yellow_chiseled_smooth_stone",
+    "coloredextradetails:gray_chiseled_smooth_stone",
+    "coloredextradetails:white_chiseled_smooth_stone",
+    "coloredextradetails:black_chiseled_smooth_stone",
+    "coloredextradetails:green_chiseled_smooth_stone",
+    "coloredextradetails:red_chiseled_smooth_stone",
+    "coloredextradetails:cyan_chiseled_smooth_stone",
+    "coloredextradetails:brown_chiseled_smooth_stone",
+    "coloredextradetails:blue_chiseled_smooth_stone",
+    "coloredextradetails:orange_chiseled_smooth_stone",
+    "coloredextradetails:lime_chiseled_smooth_stone",
+    "coloredextradetails:pink_chiseled_smooth_stone",
+    "coloredextradetails:purple_chiseled_smooth_stone",
+    "coloredextradetails:light_gray_chiseled_smooth_stone",
+    "coloredextradetails:magenta_chiseled_smooth_stone"
+  ]
+}

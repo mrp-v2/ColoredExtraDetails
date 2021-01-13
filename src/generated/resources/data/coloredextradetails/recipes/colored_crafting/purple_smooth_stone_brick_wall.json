@@ -1,0 +1,8 @@
+{
+  "type": "additionalcolors:crafting_colored",
+  "ingredient": {
+    "tag": "coloredextradetails:smooth_stone_brick_wall"
+  },
+  "result": "coloredextradetails:purple_smooth_stone_brick_wall",
+  "count": 1
+}
