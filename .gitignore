@@ -1,0 +1,10 @@
+# idea
+/.idea/
+
+# gradle
+/build/
+/.gradle/
+
+# other
+/run/
+/logs/
